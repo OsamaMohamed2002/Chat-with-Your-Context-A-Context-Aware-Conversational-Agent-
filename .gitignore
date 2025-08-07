@@ -1,0 +1,15 @@
+# .gitignore content
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+
+# Secrets file
+.env
+
+# IDE files
+.vscode/
+.idea/

@@ -1,0 +1,22 @@
+Your task is to determine if the user's message contains substantial background context before the final question, or if it is just a direct question. Your output must be one of two exact strings: "context_provided" or "context_missing".
+
+---
+Here are some examples:
+
+Message: "The Eiffel Tower was built in 1889. Who was the lead engineer?"
+Classification: context_provided
+
+Message: "What is the capital of France?"
+Classification: context_missing
+
+Message: "My dog is a golden retriever and he's been acting strange lately. He isn't eating his food. What could be the cause?"
+Classification: context_provided
+
+Message: "Tell me about the history of the Roman Empire."
+Classification: context_missing
+
+---
+Now, classify the following message.
+
+Message: {input}
+Classification:
