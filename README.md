@@ -1,1 +1,1 @@
-# Chat-with-Your-Context-A-Context-Aware-Conversational-Agent-
+# The project's primary goal was to build an intelligent chatbot capable of understanding whether a user's query includes sufficient background information or requires external knowledge. The agent was designed to autonomously decide whether to answer directly, perform a web search for missing information, and deliver a relevant, synthesized response.
